@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <title>Tugas PemWeb</title>
+        <style>
+
+            html{
+                font-family: arial;
+            }
+            #container {
+                background-color:rgb(189, 109, 109);
+                border: 1px black solid;
+                width: 900px;
+                margin:auto;
+                padding: 10px;
+            }
+
+            #header {
+                background-color:white;
+                border: 1px black solid;
+                height: 100px;
+              
+            }
+
+            #menu {
+                background-color:white;
+                border: 1px black solid;
+                height: 50px;
+                margin-top: 10px;
+            }
+
+            #menu ul {
+                margin-top: 10px;
+                margin-left: -20px;
+            }
+
+            #menu li {
+                background-color:rgb(189, 109, 109);
+                border: 1px black solid;
+                list-style: none;
+                margin-right: 5px;
+                padding: 5px 10px 5px 10px;
+                float: left;
+            }
+
+            #menu li a:link, a:visited {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+
+            #menu li a:hover {
+                text-decoration: underline;
+            }
+
+            #leftbar {
+                background-color:white;
+                border: 1px black solid;
+                width: 23%;
+                margin-top: 10px;
+                margin-right: 10px;
+                float: left;
+            }
+
+            #leftbar ul {
+                margin-left: -40px;
+            }
+
+            #leftbar li {
+                list-style: none;
+                padding: 5px;
+            }
+
+            #leftbar li a:link, a:visited {
+                text-decoration: none;
+                color: black;
+            }
+
+            #rightbar {
+                background-color:white;
+                border: 1px black solid;
+                width: 23%;
+                margin-top: 10px;
+                float: right;
+            }
+
+            #rightbar ul {
+                margin-left: -40px;
+            }
+
+            #rightbar li {
+                list-style: none;
+                padding: 5px;
+            }
+
+            #content {
+                background-color:white;
+                border: 1px black solid;
+                width: 51%;
+                padding-bottom: 50px;
+                margin-top: 10px;
+                float: left;
+            }
+
+            #footer {
+                background-color:white;
+                border: 1px black solid;
+                margin-top: 10px;
+            }
+
+            #footer p {
+                font-weight: bold;
+                padding:0 20px 0 20px;
+            }
+
+            .judul {
+                font-size: 25px;
+                font-weight: bold;
+                padding: 20px 20px 0 20px;
+            }
+
+            .isi {
+                font-size: 12px;
+                padding: 0 20px 10px 20px;
+            }
+
+            .sidebar {
+                font-weight: bold;
+                padding:10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <div class="judul">Header</div>
+                <div class="isi">Welcome to Alda Agustina Sari's Website</div>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div id="leftbar">
+                <div class="sidebar">Leftbar</div>
+                <div class="isi">
+                    <ul>
+                        <li><a href="#">Rekayasa Perangkat Lunak</a></li>
+                        <li><a href="#">Jaringan Komputer</a></li>
+                        <li><a href="#">Pemrograman Visual</a></li>
+                        <li><a href="#">Teknik Komputasi</a></li>
+                        <li><a href="#">Internet Of Things</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="rightbar">
+                <div class="sidebar">Right</div>
+                <div class="isi">
+                    <ul>
+                        <li><a href="#">Alda Agustina Sari</a></li>
+                        <li><a href="#">Muhammad Wira Darmansyah</a></li>
+                        <li><a href="#">Orin Novita Sari</a></li>
+                        <li><a href="#">Rizal Aditya Mahendra</a></li>
+                        <li><a href="#">Alvina Jacindy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                <div class="judul">Content</div>
+                <div class="isi">
+                    <p>
+                        HTML merupakan singkatan dari Hypertext Markup Language, yaitu bahasa markup standar untuk membuat dan menyusun halaman dan aplikasi web. File HTML diakhiri dengan ekstensi .html atau .htm. Ekstensi file ini bisa dilihat dengan mengunakan web browser apa pun (seperti Google Chrome, Safari, atau Mozila Firefox). Browser tersebut membaca file HTML dan merender kontennya sehingga user internet bisa melihat dan membacanya. 
+                        Dalam setiap tag HTML bisa disisipkan berbagai atribut yang berfungsi untuk menampung informasi-informasi tertentu, misalnya atribut id dan class yang berfungsi untuk memberi nama suatu tag sebagai referensi CSS atau javascript nantinya.
+                    </p>
+                    <ul>
+                        <li>Header</li>
+                        <li>Menu</li>
+                        <li>Content</li>
+                        <li>Leftbar</li>
+                        <li>Rightbar</li>
+                        <li>Footer</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div style="clear:both;"></div>
+
+            <div id="footer">
+                <p>Footer</p>
+            </div>
+        </div>
+    </body>
+</html>
